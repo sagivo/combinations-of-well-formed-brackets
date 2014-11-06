@@ -15,7 +15,7 @@ Write a function Brackets(int n) that prints all   combinations of well-formed b
 Written in ruby, but you get the idea. 
 
  ```ruby
-def foo output, open, close, pairs
+def brackets output, open, close, pairs
   if open == pairs and close == pairs
     p output
   else
@@ -23,5 +23,5 @@ def foo output, open, close, pairs
     foo output+')', open, close+1, pairs if close<open      
   end
 end
-foo('', 0, 0, 3)
+brackets('', 0, 0, 3)
  ```
