@@ -13,9 +13,9 @@ Write a function Brackets(int n) that prints all   combinations of well-formed b
  
  solutuin 
  ```ruby
- def foo output, open, close, pairs
+def foo output, open, close, pairs
   if open == pairs and close == pairs
-      p output
+    p output
   else
     foo output+'(', open+1, close, pairs if open<pairs      
     foo output+')', open, close+1, pairs if close<open      
