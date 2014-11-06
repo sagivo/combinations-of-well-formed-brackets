@@ -1,8 +1,9 @@
 combinations-of-well-formed-brackets
 ====================================
-this is a typical job interview question. 
 
-  Write a function Brackets(int n) that prints all   combinations of well-formed brackets. For Brackets(3) the output would be:
+This is a typical job interview question. 
+
+Write a function Brackets(int n) that prints all   combinations of well-formed brackets. For Brackets(3) the output would be:
  
  ((()))  
  (()())  
