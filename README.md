@@ -11,7 +11,8 @@ Write a function Brackets(int n) that prints all   combinations of well-formed b
  ()(())  
  ()()()  
  
- solutuin 
+ ##solution
+ 
  ```ruby
 def foo output, open, close, pairs
   if open == pairs and close == pairs
