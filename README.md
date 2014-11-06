@@ -12,7 +12,8 @@ Write a function Brackets(int n) that prints all   combinations of well-formed b
  ()()()  
  
 ##solution
- 
+Written in ruby, but you get the idea. 
+
  ```ruby
 def foo output, open, close, pairs
   if open == pairs and close == pairs
